@@ -1,0 +1,10 @@
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.banner .container p {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 48px;
+}

@@ -1,0 +1,103 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
+
+/* Utilities */
+@import url("./components/cards.css");
+@import url("./components/containers.css");
+
+
+body {
+  margin: 0;
+  font-family: 'Cutive Mono', monospace;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Monda', sans-serif;
+  font-weight: bold 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+.banner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/Cover.JPG");
+  background-size: cover;
+  background-position: bottom;
+  height: 600px;
+}
+
+.yellow-btn {
+  color: black;
+  background-color: #ffe700;
+  border-radius: 4px;
+  box-shadow: 2px 2px 0px #ccb802;
+  padding: 12px 16px;
+  font-size: 24px;
+  font-weight: bold;
+  transition: 0.1s;
+}
+
+.yellow-btn:hover {
+  background-color: #ccb802;
+  box-shadow: 0px 0px 0px #ccb802;
+}
+
+.logo {
+  position: absolute;
+  top: 56px;
+  color: #ffe700;
+  height: 80px;
+  width: 80px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.footer {
+  /* position: relative;
+  display: flex; */
+  align-items: center;
+  /* flex-direction: column; */
+  background-color: black;
+  padding: 60px;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-logo img {
+  position: relative;
+  height: 64px;
+  width: auto;
+}
+
+.footer-logo a {
+  color: #ffe700;
+  font-size: 32px;
+}
+
+.footer p {
+  color: white;
+  text-align: center;
+}
+
+.link-logo-right {
+  margin-left: -26px
+}
+
+.link-logo-left {
+  margin-right: -24px;
+}
